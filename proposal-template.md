@@ -2,11 +2,11 @@
 
 ## Project
 
-_Write examples for official libraries._
+Write examples for official libraries.
 
 ## Abstract
 
-_This project is designed to create a comprehensive set of examples for the official Arduino libraries. Projects will range from beginner-friendy to advanced, with code and diagrams that are easy to replicate. These examples will integrate various different libraries and leverage external components in order to facilitate an in-depth understanding of the library's functions and the Arduino as a whole._
+This project is designed to create a comprehensive set of examples for the official Arduino libraries. Projects will range from beginner-friendy to advanced, with code and diagrams that are easy to replicate. These examples will integrate various different libraries and leverage external components in order to facilitate an in-depth understanding of the library's functions and the Arduino as a whole.
 
 ## Technical Details
 
@@ -18,15 +18,12 @@ link to literature you used during the research._
 
 ## Schedule of Deliverables
 
-_Here should come a list of your milestones. This list is a start based on the
-difference phases of GSoC. Use it as a start. You can/should add more details
-for each phase by breaking it down into weeks or set specific targets for each
-phase. Each target should be split into sub task with a time estimate, [work
-breakdown structures](https://en.wikipedia.org/wiki/Work_breakdown_structure) are helpful here._
-
 ### **Community Bonding Period**
 
-_What will you do during the community bonding period?_
+* Familiarize myself with my mentors and the other GSoC participants 
+* Discuss my ideas with the team/mentors
+* Adjust my ideas with the feedback that I receive 
+* Finalize the projects and obtain approval
 
 ### **Phase 1 (June 1 - June 29)**
 
@@ -64,9 +61,9 @@ _What will you do during the community bonding period?_
 
 ### **Final Week (August 24 - August 31)**
 
-_At this stage you should finish up your project. At this stage you should make
-sure that you have code submitted to your organization. Our criteria to mark
-your project as a success is to submit code before the end of GSoC._
+* Go back and review all code for hidden errors, redundancies, and unprofessional coding practices
+* Make sure all code is clean and easy to read with plentiful comments
+* Check that diagrams and documentation are provided where necessary 
 
 ## Development Experience
 
