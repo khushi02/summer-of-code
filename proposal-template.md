@@ -28,30 +28,33 @@ link to literature you used during the research._
 ### **Phase 1 (June 1 - June 29)**
 
 * Deliverable 1
-  * Week 1 - Draft and finalize 3-5 examples for the **servo** library. This includes hardware images and fritzing schematics.
+  * Week 1 - Draft 3-5 examples for the **servo** library. This includes hardware images and fritzing schematics.
     * Ideas:
       * Implement examples with ultrasonic sensors and photresisters
       * Demonstrate uses of common objects such as buttons, switches, joysticks, and potentiometers (already included)
-  * Week 2 - Draft and finalize 3-5 examples (may change based on time analysis from previous week) for the **capacitive sensor** library. This includes hardwar images and fritzing schematics
+  * Week 2 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
+* Deliverable 2
+  * Week 3 - Draft 3-5 examples (may change based on time analysis from previous week) for the **capacitive sensor** library. This includes hardware images and fritzing schematics
     * Ideas:
       * Simple dispenser system
       * Touch sensing grid
       * Mini keyboard
-* Deliverable 2
-  * Week 3 - Draft and finalize 2-3 examples (these projects take longer) for the **keyboard** library. This includes hardware images and fritzing schematics. 
-    * Ideas:
-      * Mini musical keyboard
-      * 4x3 (or another dimension) keypad
-  * Week 4 - Draft and finalize 2-3 examples for the **mouse** library. This includes hardware images and fritzing schematics. Use extra time to clean up old code, double-check fritzing and hardware images, and ensure all deliverables have been met so far.
-    * Ideas:
-      * Integrate the Arduino and a USB mouse
-      * Create a touchpad tracker
+  * Week 4 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 
 ### **Phase 2 (July 3 - July 27)**
 
 * Deliverable 1
+  * Week 5 - Draft 2-3 examples (these projects take longer) for the **keyboard** library. This includes hardware images and fritzing schematics. 
+    * Ideas:
+      * Mini musical keyboard
+      * 4x3 (or another dimension) keypad
+   * Week 6 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 * Deliverable 2
-* ...
+  * Week 7 - Draft 2-3 examples for the **mouse** library. This includes hardware images and fritzing schematics. Use extra time to clean up old code, double-check fritzing and hardware images, and ensure all deliverables have been met so far.
+    * Ideas:
+      * Integrate the Arduino and a USB mouse
+      * Create a touchpad tracker
+  * Week 8 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 
 ### **Phase 2 (July 31 - August 24)**
 
