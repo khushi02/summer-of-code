@@ -6,8 +6,7 @@ _Write examples for official libraries._
 
 ## Abstract
 
-_Short description of your project. Max 10 sentences. This **SHOULD NOT** be a
-copy of the project idea text._
+_This project is designed to create a comprehensive set of examples for the official Arduino libraries. Projects will range from beginner-friendy to advanced, with code and diagrams that are easy to replicate. These examples will integrate various different libraries and leverage external components in order to facilitate an in-depth understanding of the library's functions and the Arduino as a whole._
 
 ## Technical Details
 
@@ -32,21 +31,21 @@ _What will you do during the community bonding period?_
 ### **Phase 1 (June 1 - June 29)**
 
 * Deliverable 1
-  * Week 1 - Draft and finalize 3-5 examples for the *servo* library. This includes hardware images and fritzing schematics.
+  * Week 1 - Draft and finalize 3-5 examples for the **servo** library. This includes hardware images and fritzing schematics.
     * Ideas:
       * Implement examples with ultrasonic sensors and photresisters
       * Demonstrate uses of common objects such as buttons, switches, joysticks, and potentiometers (already included)
-  * Week 2 - Draft and finalize 3-5 examples (may change based on time analysis from previous week) for the *capacitive sensor* library. This includes hardwar images and fritzing schematics
+  * Week 2 - Draft and finalize 3-5 examples (may change based on time analysis from previous week) for the **capacitive sensor** library. This includes hardwar images and fritzing schematics
     * Ideas:
       * Simple dispenser system
       * Touch sensing grid
       * Mini keyboard
 * Deliverable 2
-  * Week 3 - Draft and finalize 2-3 examples (these projects take longer) for the *keyboard* library. This includes hardware images and fritzing schematics. 
+  * Week 3 - Draft and finalize 2-3 examples (these projects take longer) for the **keyboard** library. This includes hardware images and fritzing schematics. 
     * Ideas:
       * Mini musical keyboard
       * 4x3 (or another dimension) keypad
-  * Week 4 - Draft and finalize 2-3 examples for the *mouse* library. This includes hardware images and fritzing schematics. Use extra time to clean up old code, double-check fritzing and hardware images, and ensure all deliverables have been met so far.
+  * Week 4 - Draft and finalize 2-3 examples for the **mouse** library. This includes hardware images and fritzing schematics. Use extra time to clean up old code, double-check fritzing and hardware images, and ensure all deliverables have been met so far.
     * Ideas:
       * Integrate the Arduino and a USB mouse
       * Create a touchpad tracker
