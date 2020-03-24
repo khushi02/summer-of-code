@@ -1,4 +1,8 @@
-#  Title 
+#  Khushi Wadhwa 
+
+## Project
+
+_Write examples for official libraries._
 
 ## Abstract
 
@@ -25,19 +29,41 @@ breakdown structures](https://en.wikipedia.org/wiki/Work_breakdown_structure) ar
 
 _What will you do during the community bonding period?_
 
-### **Phase 1**
+### **Phase 1 (June 1 - June 29)**
+
+* Deliverable 1
+  * Week 1 - Draft and finalize 3-5 examples for the *servo* library. This includes hardware images and fritzing schematics.
+    * Ideas:
+      * Implement examples with ultrasonic sensors and photresisters
+      * Demonstrate uses of common objects such as buttons, switches, joysticks, and potentiometers (already included)
+  * Week 2 - Draft and finalize 3-5 examples (may change based on time analysis from previous week) for the *capacitive sensor* library. This includes hardwar images and fritzing schematics
+    * Ideas:
+      * Simple dispenser system
+      * Touch sensing grid
+      * Mini keyboard
+* Deliverable 2
+  * Week 3 - Draft and finalize 2-3 examples (these projects take longer) for the *keyboard* library. This includes hardware images and fritzing schematics. 
+    * Ideas:
+      * Mini musical keyboard
+      * 4x3 (or another dimension) keypad
+  * Week 4 - Draft and finalize 2-3 examples for the *mouse* library. This includes hardware images and fritzing schematics. Use extra time to clean up old code, double-check fritzing and hardware images, and ensure all deliverables have been met so far.
+    * Ideas:
+      * Integrate the Arduino and a USB mouse
+      * Create a touchpad tracker
+
+### **Phase 2 (July 3 - July 27)**
 
 * Deliverable 1
 * Deliverable 2
 * ...
 
-### **Phase 2**
+### **Phase 2 (July 31 - August 24)**
 
 * Deliverable 1
 * Deliverable 2
 * ...
 
-### **Final Week**
+### **Final Week (August 24 - August 31)**
 
 _At this stage you should finish up your project. At this stage you should make
 sure that you have code submitted to your organization. Our criteria to mark
