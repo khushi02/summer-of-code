@@ -56,11 +56,13 @@ link to literature you used during the research._
       * Create a touchpad tracker
   * Week 8 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 
-### **Phase 2 (July 31 - August 24)**
+### **Phase 3 (July 31 - August 24)**
 
 * Deliverable 1
+  * Week 9 - Draft 2-3 examples (these projects take longer) for the **serial peripheral interface (SPI)** library. This includes hardware images and fritzing schematics.
+    * Ideas:
+      *  
 * Deliverable 2
-* ...
 
 ### **Final Week (August 24 - August 31)**
 
