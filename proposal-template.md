@@ -10,11 +10,49 @@ This project is designed to create a comprehensive set of examples for the offic
 
 ## Technical Details
 
-_Long description of the project. **Must** include all technical details of the
-projects, like libraries involved._
+In order to accomplish this project, I will code multiple examples using a variety of Arduino libraries. Examples that involve circuits and hardware will be accompanied by both fritzing diagrams and images. The examples will not be limited to using only one library, rather I will focus on implementing multiple libraries into the examples in order to create complex projects. This will demonstrate diversity in the use of libraries and their interactions with other libraries.
 
-_Here you can show relevant pieces of code that you want to change. You can
-link to literature you used during the research._
+Previously, I have submitted a pull request to add an example to the servo library. This is example records sensory data through a potentiometer and saves it to EEPROM. The Arduino accesses the saved data and replays the actions on a servo. This example is useful for repeated actions on a servo that do not require precise measurements, simply general motions. The pull request can be found here: https://github.com/arduino-libraries/Servo/pull/46. I have also attached the code below.
+
+int potPin = 0;       // analog pin used to connect the potentiometer
+int buttonPin = 13;   // digital pin used to connect the button
+int servoPin = 9;     // digital pin used to connect the servo
+int val;              // variable to read the value from the analog pin
+int read;             // variable to read the data from memory
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP); // configure the button's pin
+  myServo.attach(servoPin);   // attaches the servo pin to the Servo object
+}
+
+void loop() {
+  // begin recording on potentiometer if button is pressed 
+  if (record == true) {
+    for (int i = 1; i < EEPROM.length(); i++) {
+      val = analogRead(potPin);            // reads the value of the potentiometer (value between 0 and 1023)
+      val = map(val, 0, 1023, 0, 180);     // scales it to use it with the servo (value between 0 and 180)
+      
+      EEPROM.write(i, val);                // stores data in memory
+      myServo.write(val);                  // sets the servo position according to the scaled value
+      delay(15);                           // waits for the servo to get there
+    }
+    delay(1000);                           // pause before replay
+    record = false;                        // sets record to false in order to go to replay
+  }
+  // begin replay on servo
+  else {
+    for (int i = 1; i < EEPROM.length(); i++) {
+      // returns to record if button is pressed
+      if (digitalRead(buttonPin) == LOW) {
+        record = true;                    // sets record to true in order to go to rerecord the data
+        break;                            
+      }
+      read = EEPROM.read(i);              // sets the value of read to the value from memory
+      myServo.write(read);                // servo repeats the values collected from the potentiometer during record
+      delay(15);                          
+    }
+  }
+}
 
 ## Schedule of Deliverables
 
