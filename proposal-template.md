@@ -6,13 +6,13 @@ Write examples for official libraries.
 
 ## Abstract
 
-This project is designed to create a comprehensive set of examples for the official Arduino libraries. Projects will range from beginner-friendy to advanced, with code and diagrams that are easy to replicate. These examples will integrate various different libraries and leverage external components in order to facilitate an in-depth understanding of the library's functions and the Arduino as a whole.
+This project creates a comprehensive set of examples for the official Arduino libraries. Projects will range from beginner to advanced, with code and diagrams that are easy to replicate. These examples will integrate various libraries and leverage external components to facilitate an in-depth understanding of the library's functions and the Arduino as a whole.
 
 ## Technical Details
 
-In order to accomplish this project, I will code multiple examples using a variety of Arduino libraries. Examples that involve circuits and hardware will be accompanied by both fritzing diagrams and images. The examples will not be limited to using only one library, rather I will focus on implementing multiple libraries into the examples in order to create complex projects. This will demonstrate diversity in the use of libraries and their interactions with other libraries.
+In order to accomplish this project, I will code multiple examples using a variety of Arduino libraries. Examples that involve circuits and hardware will be accompanied by both fritzing diagrams and images. The examples will not be limited to using only one library, rather I will focus on implementing multiple libraries into examples to create complex projects. This will demonstrate diversity in the use of libraries and their interactions with other libraries.
 
-Over the course of Google Summer of Code, I intend to work on 6 different libraries, focusing on quality instead of quantity. I plan to spend 2 weeks on each library and submit 2-5 examples, depending on the type of library and complexity of projects. I have included details about when I plan to work on each library and potential ideas in the schedule of deliverables. The libraries I plan to work on are:
+Throughout Google Summer of Code, I intend to work on 6 different libraries, focusing on quality instead of quantity. I plan to spend 2 weeks on each library and submit 2-5 examples, depending on the type of library and complexity of projects. I have included details about when I plan to work on each library and potential ideas in the schedule of deliverables. The libraries I plan to work on are:
 * servo
 * capacitive sensor
 * keyboard
@@ -20,7 +20,7 @@ Over the course of Google Summer of Code, I intend to work on 6 different librar
 * serial peripheral interface (SPI)
 * stepper
 
-Previously, I have submitted a pull request to add an example to the servo library. This is example records sensory data through a potentiometer and saves it to EEPROM. The Arduino accesses the saved data and replays the actions on a servo. This example is useful for repeated actions on a servo that do not require precise measurements, simply general motions. This demonstrates how I plan to blend multiple libraries together into one project, just as is done in practice. The pull request can be found here: [Servo Example](https://github.com/arduino-libraries/Servo/pull/46). I have also attached the code below.
+Previously, I have submitted a pull request to add an example to the servo library. This is example records sensory data through a potentiometer and saves it to EEPROM. The Arduino accesses the saved data and replays the actions on a servo. This example is useful for repeated actions on a servo that do not require precise measurements, simply general motions. This demonstrates how I plan to blend multiple libraries into one project, just as is done in practice. The pull request can be found here: [Servo Example](https://github.com/arduino-libraries/Servo/pull/46). I have also attached the code below.
 
 ```
 int potPin = 0;       // analog pin used to connect the potentiometer
@@ -68,7 +68,7 @@ void loop() {
 
 ### **Community Bonding Period**
 
-* Familiarize myself with mentors and the other GSoC participants 
+* Familiarize myself with the mentors and other GSoC participants 
 * Discuss ideas with the team/mentors
 * Adjust ideas with the feedback that I receive 
 * Finalize the projects and obtain approval
@@ -78,7 +78,7 @@ void loop() {
 * Deliverable 1
   * Week 1 - Draft 3-5 examples for the **servo** library. This includes hardware images and fritzing schematics.
     * Ideas:
-      * Implement examples with ultrasonic sensors and photresisters
+      * Implement examples with ultrasonic sensors and photoresistors
       * Demonstrate uses of common objects such as buttons, switches, joysticks, and potentiometers (already included)
   * Week 2 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 * Deliverable 2
@@ -127,25 +127,24 @@ void loop() {
 
 ## Development Experience
 
-Arduino was one of the first tools that I used to learn coding. My first project was a smart car with servos, an ultrasonic sensor, and a camera. It was a simple project, designed for beginners. My most recent project was a smart locking system that uses facial recognition and fingerprint technology to unlock a door. This was the most complex project I have ever created on Arduino.
+Arduino was one of the first tools that I used to learn coding. My first project was a smart car with servos, an ultrasonic sensor, and a camera. It was a simple project, designed for beginners. My most recent project was a smart locking system that uses facial recognition and fingerprint technology to unlock a door. This is an example of the complexity that I plan to integrate into the Arduino libraries.
 
-I have been coding since the 6th grade and attending hackathons since the 9th grade. Through hackathons, I have built a variety of projects and experimented with different types of technology. The most advanced project I have built is Spectra, an augmented reality application for the Microsoft HoloLens. It uses the Face API from Microsoft Azure to teach the user how to comprehend and reciprocate emotions. This project was designed for people with Autism Spectrum Disorder -- to assist individuals and ease the pressure of everyday conversations.
+I have been coding since the 6th grade and attending hackathons since the 9th grade. Through hackathons, I have built a variety of projects and experimented with different types of technology. The most advanced project I have built is Spectra, an augmented reality application for the Microsoft HoloLens. It uses the Face API from Microsoft Azure to teach a user how to comprehend and reciprocate emotions. This project was designed for people with Autism Spectrum Disorder -- to assist individuals and ease the pressure of everyday conversations.
 
-Because I am new to GitHub and the open source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpost Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav). https://tinyurl.com/khushidev (Just in case the embedded link does not work)
+Because I am new to GitHub and the open-source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpost Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav). https://tinyurl.com/khushidev (Just in case the embedded link does not work)
 
 ## Other Experiences
 
 As a student at Carnegie Mellon University, I have plentiful leadership and teamwork experience. Two years ago, I founded my own hackathon -- DV Hacks. Through this experience, I learned the importance of responsibility. Not only did I have to ensure that the rest of my team completed their tasks, but I also had to keep myself on track. I realized that with, or without, someone to report to, I need to remain accountable to myself and my high standards of work. Because of this, I am both driven and hard-working in every project that I assume.
 
-Additionally, as a Congressional Debater and Extemporaneous Speaker for 5 years, I learned a great deal about communication. Because of Speech and Debate, I find it very easy to break down complex topics and convey my ideas through words. This has been especially useful in hackathons, where I am expected to simplify my projects to the point at which a third grader could understand them. It is this skill, and thorough understanding of my projects, that judges have always appreciated. As the captain of Extemporaneous speaking, I also realize the importance of being open to learning, regardless of position. I learn new things from novice and varsity members alike, and I am not afraid to express when I do not know something or need feedback. Because of this, I am always learning and growing.
+Additionally, as a Congressional Debater and Extemporaneous Speaker for 5 years, I learned a great deal about communication. Because of Speech and Debate, I find it very easy to break down complex topics and convey my ideas through words. This has been especially useful in hackathons, where I am expected to simplify my projects to the point at which a third-grader could understand them. It is this skill, and thorough understanding of my projects, that judges have always appreciated. As the captain of Extemporaneous speaking, I also realize the importance of being open to learning, regardless of position. I learn new things from novice and varsity members alike, and I am not afraid to express when I am uncertain or need feedback. Because of this, I am always open to constructive criticism to learn and grow.
 
 Although these are not explicitly technical skills, I believe that soft skills such as teamwork, responsibility, and communication are just as important to be successful.
 
 ## Why this project?
 
-The core of the open source community is about developers contributing to projects that are meanigful to them. As I enter into this community, I have the same goal: to give back to something that has been a catalyst in my growth. I have been working with Arduino throughout my career as a programmer and I want to contribute to this project in order to help kids like me find their passion for coding through Arduino.
+The core of the open-source community is about developers contributing to projects that are meaningful to them. As I enter into this community, I have the same goal: to give back to something that has been a catalyst in my growth. I have been working with Arduino throughout my career as a programmer and I want to contribute to this project in order to help kids like me find their passion for computer science through Arduino.
 
 ## Do you have any other commitments during the GSoC period?
 
 I may be unavailable during the week of July 13th. However, this will most likely be cancelled due to COVID-19. If it is not, I will make up the work during the down time between phases.
-
