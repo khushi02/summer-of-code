@@ -131,7 +131,7 @@ Arduino was one of the first tools that I used to learn coding. My first project
 
 I have been coding since the 6th grade and attending hackathons since the 9th grade. Through hackathons, I have built a variety of projects and experimented with different types of technology. The most advanced project I have built is Spectra, an augmented reality application for the Microsoft HoloLens. It uses the Face API from Microsoft Azure to teach a user how to comprehend and reciprocate emotions. This project was designed for people with Autism Spectrum Disorder -- to assist individuals and ease the pressure of everyday conversations.
 
-Because I am new to GitHub and the open-source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpost Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav). https://tinyurl.com/khushidev (Just in case the embedded link does not work)
+Because I am new to GitHub and the open-source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpost Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav). https://tinyurl.com/khushidev (Just in case the embedded link does not work).
 
 ## Other Experiences
 
