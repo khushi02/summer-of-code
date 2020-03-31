@@ -14,7 +14,7 @@ In order to accomplish this project, I will code multiple examples using a varie
 
 Previously, I have submitted a pull request to add an example to the servo library. This is example records sensory data through a potentiometer and saves it to EEPROM. The Arduino accesses the saved data and replays the actions on a servo. This example is useful for repeated actions on a servo that do not require precise measurements, simply general motions. This demonstrates how I plan to blend multiple libraries together into one project, just as is done in practice. The pull request can be found here: [Servo Example](https://github.com/arduino-libraries/Servo/pull/46). I have also attached the code below.
 
-'''
+```
 int potPin = 0;       // analog pin used to connect the potentiometer
 int buttonPin = 13;   // digital pin used to connect the button
 int servoPin = 9;     // digital pin used to connect the servo
@@ -54,7 +54,7 @@ void loop() {
     }
   }
 }
-'''
+```
 
 ## Schedule of Deliverables
 
