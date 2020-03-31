@@ -127,10 +127,11 @@ void loop() {
 
 ## Development Experience
 
-_Do you have code on GitHub? Can you show previous contributions to other projects?
-Did you do other code related projects or university courses?_
+Arduino was one of the first tools that I used to learn coding. My first project was a smart car with servos, an ultrasonic sensor, and a camera. It was a simple project, designed for beginners. My most recent project was a smart locking system that uses facial recognition and fingerprint technology to unlock a door. This was the most complex project I have ever created on Arduino.
 
-_Do you have experience with Arduino?_
+I have been coding since the 6th grade and attending hackathons since the 9th grade. Through hackathons, I have built a variety of projects and experimented with different types of technology. The most advanced project I have built is Spectra, an augmented reality application for the Microsoft HoloLens. It uses the Face API from Microsoft Azure to teach the user how to comprehend and reciprocate emotions. This project was designed for people with Autism Spectrum Disorder -- to assist individuals and ease the pressure of everyday conversations.
+
+Because I am new to GitHub and the open source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpose Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav)
 
 ## Other Experiences
 
