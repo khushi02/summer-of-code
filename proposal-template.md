@@ -12,6 +12,13 @@ This project is designed to create a comprehensive set of examples for the offic
 
 In order to accomplish this project, I will code multiple examples using a variety of Arduino libraries. Examples that involve circuits and hardware will be accompanied by both fritzing diagrams and images. The examples will not be limited to using only one library, rather I will focus on implementing multiple libraries into the examples in order to create complex projects. This will demonstrate diversity in the use of libraries and their interactions with other libraries.
 
+Over the course of Google Summer of Code, I intend to work on 6 different libraries, focusing on quality instead of quantity. I plan to spend 2 weeks on each library and submit 2-5 examples, depending on the type of library and complexity of projects. I have included details about when I plan to work on each library and potential ideas in the schedule of deliverables. The libraries I plan to work on are:
+* servo
+* capacitive sensor
+* keyboard
+* mouse
+* serial peripheral interface (SPI)
+
 Previously, I have submitted a pull request to add an example to the servo library. This is example records sensory data through a potentiometer and saves it to EEPROM. The Arduino accesses the saved data and replays the actions on a servo. This example is useful for repeated actions on a servo that do not require precise measurements, simply general motions. This demonstrates how I plan to blend multiple libraries together into one project, just as is done in practice. The pull request can be found here: [Servo Example](https://github.com/arduino-libraries/Servo/pull/46). I have also attached the code below.
 
 ```
@@ -60,9 +67,9 @@ void loop() {
 
 ### **Community Bonding Period**
 
-* Familiarize myself with my mentors and the other GSoC participants 
-* Discuss my ideas with the team/mentors
-* Adjust my ideas with the feedback that I receive 
+* Familiarize myself with mentors and the other GSoC participants 
+* Discuss ideas with the team/mentors
+* Adjust ideas with the feedback that I receive 
 * Finalize the projects and obtain approval
 
 ### **Phase 1 (June 1 - June 29)**
@@ -101,8 +108,15 @@ void loop() {
 * Deliverable 1
   * Week 9 - Draft 2-3 examples (these projects take longer) for the **serial peripheral interface (SPI)** library. This includes hardware images and fritzing schematics.
     * Ideas:
-      *  
+      * Simple 'Hello World' example
+      * LED matrix/blink sequence
+  * Week 10 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 * Deliverable 2
+  * Week 11 - Draft 2-3 examples for the **stepper** library. This includes hardware images and fritzing schematics. Use extra time to clean up old code, double-check fritzing and hardware images, and ensure all deliverables have been met so far.
+    * Ideas:
+      * Stepper controlled by joystick
+      * Wheel control
+  * Week 12 - Implement suggestions from mentors and ensure that code is clean. Finalize examples.
 
 ### **Final Week (August 24 - August 31)**
 
