@@ -18,6 +18,7 @@ Over the course of Google Summer of Code, I intend to work on 6 different librar
 * keyboard
 * mouse
 * serial peripheral interface (SPI)
+* stepper
 
 Previously, I have submitted a pull request to add an example to the servo library. This is example records sensory data through a potentiometer and saves it to EEPROM. The Arduino accesses the saved data and replays the actions on a servo. This example is useful for repeated actions on a servo that do not require precise measurements, simply general motions. This demonstrates how I plan to blend multiple libraries together into one project, just as is done in practice. The pull request can be found here: [Servo Example](https://github.com/arduino-libraries/Servo/pull/46). I have also attached the code below.
 
@@ -142,5 +143,5 @@ _Why you want to do this project?_
 
 ## Do you have any other commitments during the GSoC period?
 
-_Provide dates, such as holidays, when you will not be available._
+I may be unavailable during the week of July 13th. However, this will most likely be cancelled due to COVID-19. If it is not, I will make up the work during the down time between phases.
 
