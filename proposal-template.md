@@ -131,16 +131,19 @@ Arduino was one of the first tools that I used to learn coding. My first project
 
 I have been coding since the 6th grade and attending hackathons since the 9th grade. Through hackathons, I have built a variety of projects and experimented with different types of technology. The most advanced project I have built is Spectra, an augmented reality application for the Microsoft HoloLens. It uses the Face API from Microsoft Azure to teach the user how to comprehend and reciprocate emotions. This project was designed for people with Autism Spectrum Disorder -- to assist individuals and ease the pressure of everyday conversations.
 
-Because I am new to GitHub and the open source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpose Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav)
+Because I am new to GitHub and the open source community, I do not have a lot of projects on my GitHub profile. However, I have many projects on my Devpost: [Devpost Projects](https://devpost.com/k9wadhwa?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav). https://tinyurl.com/khushidev (Just in case the embedded link does not work)
 
 ## Other Experiences
 
-...
+As a student at Carnegie Mellon University, I have plentiful leadership and teamwork experience. Two years ago, I founded my own hackathon -- DV Hacks. Through this experience, I learned the importance of responsibility. Not only did I have to ensure that the rest of my team completed their tasks, but I also had to keep myself on track. I realized that with, or without, someone to report to, I need to remain accountable to myself and my high standards of work. Because of this, I am both driven and hard-working in every project that I assume.
 
+Additionally, as a Congressional Debater and Extemporaneous Speaker for 5 years, I learned a great deal about communication. Because of Speech and Debate, I find it very easy to break down complex topics and convey my ideas through words. This has been especially useful in hackathons, where I am expected to simplify my projects to the point at which a third grader could understand them. It is this skill, and thorough understanding of my projects, that judges have always appreciated. As the captain of Extemporaneous speaking, I also realize the importance of being open to learning, regardless of position. I learn new things from novice and varsity members alike, and I am not afraid to express when I do not know something or need feedback. Because of this, I am always learning and growing.
+
+Although these are not explicitly technical skills, I believe that soft skills such as teamwork, responsibility, and communication are just as important to be successful.
 
 ## Why this project?
 
-_Why you want to do this project?_
+The core of the open source community is about developers contributing to projects that are meanigful to them. As I enter into this community, I have the same goal: to give back to something that has been a catalyst in my growth. I have been working with Arduino throughout my career as a programmer and I want to contribute to this project in order to help kids like me find their passion for coding through Arduino.
 
 ## Do you have any other commitments during the GSoC period?
 
